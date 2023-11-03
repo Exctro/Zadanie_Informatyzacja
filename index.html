@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie</title>
+</head>
+<body>
+    <p>Program oblicza sume cyfr w hashu MD5 podanej liczby dziesietnej</p>
+    <form id="hash">
+        <label for="liczbaDziesietna">Wprowadz liczbe dziesietna: </label><br>
+        <input type="number" id="liczbaDziesietna" step="any" required>
+        <button type="submit">Oblicz</button>
+    </form>
+    <p id="wynik"></p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.18.0/js/md5.min.js"></script>
+    <script src="suma_cyfr_MD5.js"></script>
+</body>
+</html>
